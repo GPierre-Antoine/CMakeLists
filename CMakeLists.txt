@@ -1,12 +1,14 @@
-cmake_minimum_required(VERSION 3.4)
+cmake_minimum_required(VERSION X)
 
-set(PROJECT_NAME Tutorat)
+set(PROJECT_NAME XXXXX)
 
 project(${PROJECT_NAME})
 
 set(CMAKE_BINARY_DIR "${CMAKE_CURRENT_SOURCE_DIR}/build")
 
-set(CMAKE_CXX_FLAGS "-std=c++11 -O3 -W -Wall -Wextra --pedantic -Wno-comment -Werror")
+set(CMAKE_CXX_STANDARD X)
+
+set(CMAKE_CXX_FLAGS "-O3 -W -Wall -Wextra --pedantic -Wno-comment -Werror")
 
 if (CMAKE_BUILD_TYPE MATCHES "Debug")
     set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -g")
